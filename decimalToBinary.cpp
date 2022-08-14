@@ -1,7 +1,10 @@
 #include <iostream>
  
 using namespace std;
- 
+
+// To convert decimal to binary, divide by 2 while decimal is different from 0. 
+// The resultant remainder is the number in binary.
+
 int main() {
  int decimal = 10, binary = 0;
  int remainder, product = 1;
