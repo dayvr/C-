@@ -2,9 +2,9 @@
 
 using namespace std;
 
-// Find whether a number is prime or not.
-
 int main() {
+  // Find whether a number is prime or not.
+  
   bool isPrime = true;
   if (number <= 1) {
      isPrime = false;
