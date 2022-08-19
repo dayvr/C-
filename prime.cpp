@@ -2,8 +2,14 @@
 
 using namespace std;
 
+/*
+Prime numbers are natural numbers greater than 1 that cannot 
+be expressed as a product of two smaller natural numbers.
+*/
+
 int main() {
   // Find whether a number is prime or not.
+  // Prime number is greater than 1 with only two factors, 1 and itself.
   
   bool isPrime = true;
   if (number <= 1) {
