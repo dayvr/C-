@@ -10,9 +10,9 @@ void sort_elements(int arr[], int size) {
     for (int j = i + 1; j < size; j++) {
       if (arr[i] < arr[j]) {
         // Swap elements
-        temp = arr[j];
+        tmp = arr[j];
         arr[j] = arr[i];
-        arr[i] = temp;
+        arr[i] = tmp;
       }
     }
   }
