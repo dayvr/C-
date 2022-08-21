@@ -3,6 +3,8 @@
 #include <algorithm>
 using namespace std;
 
+// Sorting program using the sort() built-in function in C++ STL
+
 /* Auxiliary function that takes in two variables and returns an integer:
 - true or 1: if a should appear before b
 - false or zero: if a should appear after b */
